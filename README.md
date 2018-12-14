@@ -17,5 +17,5 @@ Currently we provide:
 ## Annotation Data
 * The latest public release of the Company Men [annotation dataset](https://github.com/ProjectAdA/public/tree/master/annotations) based on the AdA vocabulary.
 * Contains more than 22,000 fine-grained film-analytical annotations.
-* The annotation data can also be queried at our public [SPRAQL Endpoint](http://ada.filmontology.org/sparql).
+* The annotation data can also be queried at our public [SPARQL Endpoint](http://ada.filmontology.org/sparql).
 
