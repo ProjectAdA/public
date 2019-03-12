@@ -405,7 +405,6 @@
         <dcterms:hasPart rdf:resource="&ar;AnnotationLevel/Language"/>
         <dcterms:hasPart rdf:resource="&ar;AnnotationLevel/Montage"/>
         <dcterms:hasPart rdf:resource="&ar;AnnotationLevel/Motifs"/>
-        <dcterms:hasPart rdf:resource="&ar;AnnotationLevel/Optional"/>
         <dcterms:hasPart rdf:resource="&ar;AnnotationLevel/Segmentation"/>
     </owl:NamedIndividual>
     
@@ -573,18 +572,6 @@
         <hasAnnotationType rdf:resource="&ar;AnnotationType/ImportantPersons"/>
         <hasAnnotationType rdf:resource="&ar;AnnotationType/Keywords"/>
         <hasAnnotationType rdf:resource="&ar;AnnotationType/Setting"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://ada.filmontology.org/resource/2019/01/29/AnnotationLevel/Optional -->
-
-    <owl:NamedIndividual rdf:about="&ar;AnnotationLevel/Optional">
-        <rdf:type rdf:resource="&ao;AnnotationLevel"/>
-        <rdfs:label xml:lang="de">Optional</rdfs:label>
-        <rdfs:label xml:lang="en">Optional</rdfs:label>
-        <sequentialNumber>8</sequentialNumber>
-        <dbo:abbreviation>Opt</dbo:abbreviation>
     </owl:NamedIndividual>
     
 
