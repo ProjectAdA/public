@@ -15,7 +15,7 @@ Currently we provide:
 * In order to use the template you have to install and use [Advene from sources](https://github.com/oaubert/advene).
 
 ## Annotation Data
-* The latest public release of the Company Men [annotation dataset](https://github.com/ProjectAdA/public/tree/master/annotations) based on the AdA vocabulary.
-* Contains more than 22,000 fine-grained film-analytical annotations.
+* The latest public releases of our [annotation datasets](https://github.com/ProjectAdA/public/tree/master/annotations) based on the AdA vocabulary.
+* The turtle exports contain more than 37,000 fine-grained film-analytical annotations.
 * The annotation data can also be queried at our public [SPARQL Endpoint](http://ada.filmontology.org/sparql).
 
