@@ -1,0 +1,879 @@
+@prefix schema: <http://schema.org/> .
+@prefix dctypes: <http://purl.org/dc/dcmitype/> .
+@prefix art:   <http://ada.filmontology.org/resource/2020/03/17/AnnotationType/> .
+@prefix arv:   <http://ada.filmontology.org/resource/2020/03/17/AnnotationValue/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix local: <http://www.advene.org/ns/_local/> .
+@prefix ao:    <http://ada.filmontology.org/ontology/2020/03/17/> .
+@prefix advu:  <http://www.advene.org/ns/_local/user/> .
+@prefix ar:    <http://ada.filmontology.org/resource/2020/03/17/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix advk:  <http://www.advene.org/ns/_local/keyword/> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix advene: <http://www.advene.org/ns/webannotation/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix iana:  <http://www.iana.org/assignments/relation/> .
+@prefix arm:   <http://ada.filmontology.org/resource/media/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/02d6d25e-4cf6-11ea-8124-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-11T18:43:28"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#00d5ff" ;
+        advene:type        "Shot" ;
+        advene:type_title  "Montg | Shot" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "3" ;
+                             ao:annotationType  art:Shot
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=65.083,70.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        65083 ;
+                                               advene:end          70083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/5c6ec738-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:15"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#e09500" ;
+        advene:type        "ImageContent" ;
+        advene:type_title  "Motf | Image Content" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "writing" ;
+                             ao:annotationType  art:ImageContent
+                           ] ;
+        oa:hasBody         [ a                   ao:PredefinedValuesAnnotationType ;
+                             ao:annotationType   art:ImageContent ;
+                             ao:annotationValue  arv:ImageContent_writing
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=65.083,70.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        65083 ;
+                                               advene:end          70083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/5314eaa9-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:00"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ffed52" ;
+        advene:type        "ImageIntrinsicMovement" ;
+        advene:type_title  "ImCo | Image Intrinsic Movement" ;
+        oa:hasBody         [ a                           ao:ContrastingValuesAnnotationType ;
+                             ao:annotationType           art:ImageIntrinsicMovement ;
+                             ao:annotationValueSequence  ( arv:ImageIntrinsicMovement_3 arv:ImageIntrinsicMovement_1 )
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "3,[VS],1" ;
+                             ao:annotationType  art:ImageIntrinsicMovement
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=23.150,65.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        23150 ;
+                                               advene:end          65083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/5041c2d3-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:40:56"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ff0000" ;
+        advene:type        "RecordingPlaybackSpeed" ;
+        advene:type_title  "Cam | Recording/Playback Speed" ;
+        oa:hasBody         [ a                   ao:PredefinedValuesAnnotationType ;
+                             ao:annotationType   art:RecordingPlaybackSpeed ;
+                             ao:annotationValue  arv:RecordingPlaybackSpeed_normal
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "normal" ;
+                             ao:annotationType  art:RecordingPlaybackSpeed
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=65.083,70.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        65083 ;
+                                               advene:end          70083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/54d9e795-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:03"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "lightgreen" ;
+        advene:type        "ImageBrightness" ;
+        advene:type_title  "ImCo | Image Brightness" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "dark,[TO],medium" ;
+                             ao:annotationType  art:ImageBrightness
+                           ] ;
+        oa:hasBody         [ a                           ao:EvolvingValuesAnnotationType ;
+                             ao:annotationType           art:ImageBrightness ;
+                             ao:annotationValueSequence  ( arv:ImageBrightness_dark arv:ImageBrightness_medium )
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=23.150,65.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        23150 ;
+                                               advene:end          65083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/07ebf21e-4e62-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T14:09:13"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#649f60" ;
+        advene:type        "MusicMood" ;
+        advene:type_title  "As | Music Mood" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "tense" ;
+                             ao:annotationType  art:MusicMood
+                           ] ;
+        oa:hasBody         [ a                   ao:PredefinedValuesAnnotationType ;
+                             ao:annotationType   art:MusicMood ;
+                             ao:annotationValue  arv:MusicMood_tense
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=11.995,70.884" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        11995 ;
+                                               advene:end          70884
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/5c6ec737-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:15"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#e09500" ;
+        advene:type        "ImageContent" ;
+        advene:type_title  "Motf | Image Content" ;
+        oa:hasBody         [ a                   ao:PredefinedValuesAnnotationType ;
+                             ao:annotationType   art:ImageContent ;
+                             ao:annotationValue  arv:ImageContent_writing , arv:ImageContent_location
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "location,writing" ;
+                             ao:annotationType  art:ImageContent
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=23.150,65.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        23150 ;
+                                               advene:end          65083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/5314eaa8-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:00"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ffed52" ;
+        advene:type        "ImageIntrinsicMovement" ;
+        advene:type_title  "ImCo | Image Intrinsic Movement" ;
+        oa:hasBody         [ a                           ao:ContrastingValuesAnnotationType ;
+                             ao:annotationType           art:ImageIntrinsicMovement ;
+                             ao:annotationValueSequence  ( arv:ImageIntrinsicMovement_0 arv:ImageIntrinsicMovement_1 )
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "0,[VS],1" ;
+                             ao:annotationType  art:ImageIntrinsicMovement
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=0.000,23.150" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        0 ;
+                                               advene:end          23150
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/5041c2d2-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:40:56"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ff0000" ;
+        advene:type        "RecordingPlaybackSpeed" ;
+        advene:type_title  "Cam | Recording/Playback Speed" ;
+        oa:hasBody         [ a                   ao:PredefinedValuesAnnotationType ;
+                             ao:annotationType   art:RecordingPlaybackSpeed ;
+                             ao:annotationValue  arv:RecordingPlaybackSpeed_timelapse
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "timelapse" ;
+                             ao:annotationType  art:RecordingPlaybackSpeed
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=23.150,65.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        23150 ;
+                                               advene:end          65083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/54d9e794-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:03"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#404040" ;
+        advene:type        "ImageBrightness" ;
+        advene:type_title  "ImCo | Image Brightness" ;
+        oa:hasBody         [ a                          ao:PredefinedValuesAnnotationType ;
+                             ao:annotationNumericValue  1e+00 ;
+                             ao:annotationType          art:ImageBrightness ;
+                             ao:annotationValue         arv:ImageBrightness_dark
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "dark" ;
+                             ao:annotationType  art:ImageBrightness
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=0.000,23.150" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        0 ;
+                                               advene:end          23150
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/4ad28152-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:40:46"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ff4505" ;
+        advene:type        "CameraAngle" ;
+        advene:type_title  "Cam | Camera Angle" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "straight-angle,[TO],high-angle" ;
+                             ao:annotationType  art:CameraAngle
+                           ] ;
+        oa:hasBody         [ a                           ao:EvolvingValuesAnnotationType ;
+                             ao:annotationType           art:CameraAngle ;
+                             ao:annotationValueSequence  ( arv:CameraAngle_straight_angle arv:CameraAngle_high_angle )
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=0.000,23.150" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        0 ;
+                                               advene:end          23150
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/0e85dabe-4cf6-11ea-8124-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-11T18:43:47"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#00ccf5" ;
+        advene:type        "ShotDuration" ;
+        advene:type_title  "Montg | Shot Duration" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "3" ;
+                             ao:annotationType  art:ShotDuration
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=65.083,70.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        65083 ;
+                                               advene:end          70083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+advu:ada  a     foaf:Person .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/54d9e798-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:04"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ffff00" ;
+        advene:type        "FieldSize" ;
+        advene:type_title  "ImCo | Field Size" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "long shot" ;
+                             ao:annotationType  art:FieldSize
+                           ] ;
+        oa:hasBody         [ a                          ao:PredefinedValuesAnnotationType ;
+                             ao:annotationNumericValue  3e+00 ;
+                             ao:annotationType          art:FieldSize ;
+                             ao:annotationValue         arv:FieldSize_long_shot
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=23.150,65.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        23150 ;
+                                               advene:end          65083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/5041c2d1-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:40:56"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ff0000" ;
+        advene:type        "RecordingPlaybackSpeed" ;
+        advene:type_title  "Cam | Recording/Playback Speed" ;
+        oa:hasBody         [ a                           ao:EvolvingValuesAnnotationType ;
+                             ao:annotationType           art:RecordingPlaybackSpeed ;
+                             ao:annotationValueSequence  ( arv:RecordingPlaybackSpeed_normal arv:RecordingPlaybackSpeed_timelapse )
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "normal,[TO],timelapse" ;
+                             ao:annotationType  art:RecordingPlaybackSpeed
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=0.000,23.150" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        0 ;
+                                               advene:end          23150
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/5314eaad-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:01"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ffe269" ;
+        advene:type        "ColourRange" ;
+        advene:type_title  "ImCo | Colour Range" ;
+        oa:hasBody         [ a                   ao:PredefinedValuesAnnotationType ;
+                             ao:annotationType   art:ColourRange ;
+                             ao:annotationValue  arv:ColourRange_white , arv:ColourRange_black
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "black,white" ;
+                             ao:annotationType  art:ColourRange
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=65.083,70.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        65083 ;
+                                               advene:end          70083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/9e39c0a8-4e57-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T12:54:41"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#43cd80" ;
+        advene:type        "SoundGestureDynamics" ;
+        advene:type_title  "As | Sound Gesture Dynamics" ;
+        oa:hasBody         [ a                   ao:PredefinedValuesAnnotationType ;
+                             ao:annotationType   art:SoundGestureDynamics ;
+                             ao:annotationValue  arv:SoundGestureDynamics_whirring
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "whirring" ;
+                             ao:annotationType  art:SoundGestureDynamics
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=17.148,19.650" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        17148 ;
+                                               advene:end          19650
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/0e85dabd-4cf6-11ea-8124-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-11T18:43:47"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#00ccf5" ;
+        advene:type        "ShotDuration" ;
+        advene:type_title  "Montg | Shot Duration" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "2" ;
+                             ao:annotationType  art:ShotDuration
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=23.150,65.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        23150 ;
+                                               advene:end          65083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/54d9e797-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:04"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ffff00" ;
+        advene:type        "FieldSize" ;
+        advene:type_title  "ImCo | Field Size" ;
+        oa:hasBody         [ a                           ao:EvolvingValuesAnnotationType ;
+                             ao:annotationType           art:FieldSize ;
+                             ao:annotationValueSequence  ( arv:FieldSize_neither arv:FieldSize_long_shot )
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "neither,[TO],long shot" ;
+                             ao:annotationType  art:FieldSize
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=0.000,23.150" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        0 ;
+                                               advene:end          23150
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/5314eaac-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:01"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ffe269" ;
+        advene:type        "ColourRange" ;
+        advene:type_title  "ImCo | Colour Range" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "white,black,royalblue,antiquewhite" ;
+                             ao:annotationType  art:ColourRange
+                           ] ;
+        oa:hasBody         [ a                   ao:PredefinedValuesAnnotationType ;
+                             ao:annotationType   art:ColourRange ;
+                             ao:annotationValue  arv:ColourRange_white , arv:ColourRange_royalblue , arv:ColourRange_black , arv:ColourRange_antiquewhite
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=23.150,65.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        23150 ;
+                                               advene:end          65083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/5da889b7-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:17"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ff8700" ;
+        advene:type        "Setting" ;
+        advene:type_title  "Motf | Setting" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "exterior,day,urban (New York City)" ;
+                             ao:annotationType  art:Setting
+                           ] ;
+        oa:hasBody         [ a                   ao:PredefinedValuesAnnotationType ;
+                             rdf:comment         "New York City" ;
+                             ao:annotationType   art:Setting ;
+                             ao:annotationValue  arv:Setting_urban , arv:Setting_exterior , arv:Setting_day
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=23.150,65.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        23150 ;
+                                               advene:end          65083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/0e85dabc-4cf6-11ea-8124-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-11T18:43:47"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#00ccf5" ;
+        advene:type        "ShotDuration" ;
+        advene:type_title  "Montg | Shot Duration" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "1" ;
+                             ao:annotationType  art:ShotDuration
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=0.000,23.150" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        0 ;
+                                               advene:end          23150
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/54d9e796-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:03"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#404040" ;
+        advene:type        "ImageBrightness" ;
+        advene:type_title  "ImCo | Image Brightness" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "dark" ;
+                             ao:annotationType  art:ImageBrightness
+                           ] ;
+        oa:hasBody         [ a                          ao:PredefinedValuesAnnotationType ;
+                             ao:annotationNumericValue  1e+00 ;
+                             ao:annotationType          art:ImageBrightness ;
+                             ao:annotationValue         arv:ImageBrightness_dark
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=65.083,70.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        65083 ;
+                                               advene:end          70083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/4ad28154-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:40:46"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ff4505" ;
+        advene:type        "CameraAngle" ;
+        advene:type_title  "Cam | Camera Angle" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "straight-angle" ;
+                             ao:annotationType  art:CameraAngle
+                           ] ;
+        oa:hasBody         [ a                          ao:PredefinedValuesAnnotationType ;
+                             ao:annotationNumericValue  4e+00 ;
+                             ao:annotationType          art:CameraAngle ;
+                             ao:annotationValue         arv:CameraAngle_straight_angle
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=65.083,70.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        65083 ;
+                                               advene:end          70083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/51fa81f2-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:40:58"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ffd700" ;
+        advene:type        "DominantMovementDirection" ;
+        advene:type_title  "ImCo | Dominant Movement Direction" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "towards,away" ;
+                             ao:annotationType  art:DominantMovementDirection
+                           ] ;
+        oa:hasBody         [ a                   ao:PredefinedValuesAnnotationType ;
+                             ao:annotationType   art:DominantMovementDirection ;
+                             ao:annotationValue  arv:DominantMovementDirection_towards , arv:DominantMovementDirection_away
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=65.083,70.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        65083 ;
+                                               advene:end          70083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/02d6d25d-4cf6-11ea-8124-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-11T18:43:28"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#00d5ff" ;
+        advene:type        "Shot" ;
+        advene:type_title  "Montg | Shot" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "2" ;
+                             ao:annotationType  art:Shot
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=23.150,65.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        23150 ;
+                                               advene:end          65083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/5314eaab-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:01"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ffe269" ;
+        advene:type        "ColourRange" ;
+        advene:type_title  "ImCo | Colour Range" ;
+        oa:hasBody         [ a                   ao:PredefinedValuesAnnotationType ;
+                             ao:annotationType   art:ColourRange ;
+                             ao:annotationValue  arv:ColourRange_white , arv:ColourRange_grey , arv:ColourRange_black
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "black,white,grey" ;
+                             ao:annotationType  art:ColourRange
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=0.000,23.150" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        0 ;
+                                               advene:end          23150
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/06d2abbe-7f1f-11ea-8d38-001c426b8427>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-04-15T15:43:02"^^xsd:dateTime ;
+        dcterms:creator    advu:adatsche ;
+        advene:color       "#96d639" ;
+        advene:type        "Volume" ;
+        advene:type_title  "As | Volume" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00 2.18 4.11 6.47 6.73 9.64 11.42 12.37 12.77 13.68 14.52 18.14 19.71 20.64 23.15 22.18 22.91 23.47 24.82 26.18 26.50 28.96 28.10 29.99 31.60 28.50 33.35 31.58 33.16 33.20 34.24 33.55 32.56 35.85 35.90 35.81 35.27 35.82 34.68 37.12 34.74 36.97 37.10 35.96 34.98 36.93 37.38 36.21 36.44 35.77 34.39 34.56 34.98 36.58 35.77 34.70 36.23 35.66 33.96 32.14 32.29 33.05 34.38 35.51 35.13 32.87 32.28 34.82 32.73 35.56 33.33 34.37 34.94 35.13 34.01 35.59 33.97 34.70 34.62 34.51 36.99 35.52 37.13 37.62 35.18 36.78 37.11 37.39 36.94 36.02 36.32 35.00 35.14 37.15 35.18 36.81 37.01 34.56 36.55 37.42 35.60 35.34 37.25 35.59 35.46 35.81 36.16 38.35 37.81 35.06 35.65 36.58 37.20 36.05 36.82 36.25 37.05 36.16 35.40 35.69 35.77 35.36 35.16 37.34 34.98 35.61 35.12 35.87 36.27 35.60 35.45 35.87 36.77 36.98 37.21 36.87 36.50 37.71 37.33 37.28 38.12 37.71 36.86 38.56 40.07 40.68 38.48 38.73 43.71 43.30 43.32 45.27 45.48 45.87 44.78 46.13 46.93 43.74 41.88 44.12 45.19 45.69 46.03 46.67 44.95 42.18 45.06 44.72 43.21 42.12 43.45 44.55 44.71 43.74 44.30 42.70 42.77 44.42 44.90 44.28 44.45 43.63 44.49 45.78 44.93 44.94 45.17 47.85 48.71 46.72 47.39 45.26 46.00 45.16 44.91 47.01 46.76 48.17 48.18 46.41 45.28 45.04 45.99 45.38 44.99 45.91 45.75 47.76 50.22 50.65 49.17 51.19 53.00 52.83 52.45 52.90 52.19 52.39 52.95 50.89 52.50 50.63 51.19 51.45 50.80 50.52 52.01 51.78 51.20 49.91 49.10 49.22 50.15 48.61 47.54 48.89 47.82 48.25 49.44 48.10 46.63 44.86 48.10 46.24 44.80 44.89 44.69 45.88 46.72 46.76 47.66 48.74 47.12 47.77 47.66 48.48 46.82 45.98 46.95 46.45 45.79 47.90 47.33 46.44 47.14 48.32 48.31 49.80 50.47 48.28 50.20 49.66 48.99 48.59 47.07 48.96 48.99 48.29 48.11 45.89 47.13 45.49 44.75 45.91 45.47 48.38 49.42 49.42 49.16 50.82 47.99 47.90 50.30 50.26 47.71 46.05 46.73 48.27 49.18 50.24 45.37 47.39 48.41 47.33 46.86 49.04 50.78 49.65 49.62 50.12 49.56 51.53 51.07 50.75 48.12 48.60 48.86 50.47 48.99 48.62 47.95 47.77 49.84 49.87 49.79 52.27 50.86 51.64 51.80 55.17 51.60 54.21 50.98 50.30 50.23 50.37 51.24 50.84 50.01 49.75 53.11 52.79 50.01 50.78 51.74 52.10 53.09 52.12 50.20 50.37 51.63 53.04 50.82 50.02 49.11 50.99 51.29 49.64 51.03 52.06 52.04 48.99 50.11 49.36 47.57 50.67 51.12 55.23 52.61 51.48 53.32 51.84 50.07 53.66 51.73 51.51 52.14 52.57 52.95 58.89 58.94 60.42 58.53 57.16 58.21 60.55 61.00 59.63 59.54 58.58 60.82 59.48 60.13 58.97 59.82 60.33 59.23 58.47 58.10 58.74 57.55 58.11 60.22 59.18 58.83 64.72 63.55 61.77 61.90 61.30 59.70 60.98 60.68 62.16 63.21 62.02 61.59 62.94 60.09 60.41 60.93 62.29 60.77 58.92 58.43 61.35 60.88 57.21 55.54 57.88 60.16 57.96 59.83 57.41 60.18 58.67 56.42 54.47 54.98 55.83 58.18 56.33 54.48 57.58 56.01 53.89 54.62 54.78 59.77 61.82 59.31 57.07 58.37 59.85 58.44 55.85 57.98 57.19 57.27 56.52 57.73 58.73 58.44 57.32 58.26 57.96 56.59 55.52 54.29 57.46 56.18 54.39 54.59 60.00 63.06 63.21 64.62 64.45 63.65 61.14 60.82 57.59 59.12 60.06 60.56 60.57 59.15 58.09 56.87 60.05 61.63 62.49 62.56 61.32 55.95 53.47 55.07 56.57 56.76 55.46 56.20 57.90 56.64 55.31 55.70 54.82 56.22 53.10 53.84 54.11 54.11 54.19 54.68 56.44 51.85 53.51 57.95 60.99 59.58 57.25 59.08 59.47 57.97 57.42 55.99 56.79 57.91 57.48 56.07 55.74 55.40 55.87 54.64 53.82 55.07 54.71 54.17 55.67 55.41 53.81 53.33 55.02 62.64 63.24 65.13 65.03 65.72 63.63 63.26 64.60 63.61 63.63 63.51 62.58 59.99 56.59 59.49 58.52 57.17 58.82 60.03 63.53 64.19 61.64 61.60 62.19 58.90 57.31 56.02 54.91 55.57 52.87 56.54 58.00 54.91 55.39 56.62 56.59 55.04 54.51 54.03 56.65 56.60 55.12 54.33 59.83 60.29 58.56 58.50 58.04 57.47 57.68 57.33 58.62 57.92 57.89 58.81 58.22 59.80 57.22 57.41 57.53 56.37 56.33 56.97 56.76 56.70 56.79 56.84 56.78 58.79 64.79 64.48 63.78 61.88 59.77 59.89 61.02 61.24 58.50 62.10 61.18 60.05 58.15 57.13 56.71 58.60 58.06 55.83 57.63 56.66 57.54 56.58 55.21 57.37 55.93 56.82 56.26 56.27 56.67 58.33 59.87 59.01 58.36 58.40 55.83 55.84 55.48 55.33 55.37 53.13 52.96 53.72 53.27 57.58 63.84 61.07 60.12 62.49 59.65 59.11 60.37 59.73 57.33 55.30 55.03 53.16 55.00 52.11 52.28 51.35 53.05 52.96 53.83 53.67 54.43 53.80 52.48 52.52 51.75 52.47 52.57 53.30 53.18 54.66 54.05 53.47 51.53 49.90 49.69 53.02 53.45 53.50 53.42 53.58 53.85 52.99 50.42 47.80 47.51 51.62 50.84 52.32 51.29 52.15 51.72 51.60 53.15 53.10 52.96 54.31 56.34 56.25 53.33 54.71 54.37 54.25 55.73 54.76 54.42 51.35 51.55 53.21 52.91 52.13 51.92 52.10 51.95 53.40 54.57 55.87 55.82 56.41 55.81 55.35 53.64 54.18 50.18 50.67 52.76 53.26 51.85 56.65 52.41 52.04 52.94 54.14 55.16 55.53 54.85 54.94 53.16 52.68 52.83 53.30 54.39 55.94 57.92 58.44 56.12 54.52 56.50 57.29 57.12 57.64 57.33 55.92 57.08 58.68 56.66 53.73 56.23 56.12 54.30 54.31 55.25 56.00 54.77 54.28 55.24 54.54 53.40 51.07 54.18 55.42 53.89 54.33 53.60 55.43 53.97 53.80 54.01 52.58 53.61 53.99 54.19 55.43 51.94 50.91 50.78 52.94 53.70 54.74 57.36 56.95 56.82 54.99 56.65 58.02 57.15 57.63 57.97 57.94 57.09 55.88 55.92 57.15 56.31 56.51 55.78 55.66 54.77 55.35 53.27 55.58 58.81 59.11 58.61 57.59 58.95 57.77 56.83 60.55 59.19 58.27 55.92 57.14 56.24 57.65 57.10 56.59 56.00 53.53 54.65 53.40 51.79 53.78 54.35 53.69 52.50 52.55 54.55 54.34 53.34 53.85 55.41 54.69 55.34 53.86 52.65 53.49 53.43 53.49 59.85 59.59 58.50 57.20 55.40 53.51 58.51 57.92 57.71 56.49 57.94 57.35 58.62 58.21 58.64 56.54 53.08 54.36 55.62 57.68 55.28 54.44 54.83 54.34 54.70 55.74 54.83 52.41 54.92 53.11 53.95 53.66 52.70 52.64 51.87 52.51 52.65 54.20 55.04 54.66 54.33 52.78 52.37 55.89 61.22 61.04 59.66 58.78 58.39 57.05 57.37 58.78 57.80 56.24 54.59 54.51 54.41 55.08 54.51 53.80 53.75 53.89 53.40 52.93 55.33 55.81 54.81 55.60 55.25 54.59 56.12 55.77 56.13 56.84 55.64 57.37 56.55 56.77 55.18 53.50 53.92 55.60 52.85 56.03 55.08 53.68 55.09 54.40 59.73 59.06 62.09 58.58 60.56 53.07 55.15 55.52 54.08 56.65 56.33 53.48 56.50 53.97 53.13 55.86 52.83 51.89 55.01 54.83 57.00 56.76 55.82 57.32 55.58 54.41 54.45 52.14 54.03 55.36 51.94 55.22 54.75 52.71 56.30 55.62 54.06 58.39 53.11 56.41 57.96 55.53" ;
+                             ao:annotationType  art:Volume
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=0.000,100.000" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        0 ;
+                                               advene:end          100000
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+advu:adatsche  a  foaf:Person .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/4ad28153-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:40:46"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ff4505" ;
+        advene:type        "CameraAngle" ;
+        advene:type_title  "Cam | Camera Angle" ;
+        oa:hasBody         [ a                          ao:PredefinedValuesAnnotationType ;
+                             ao:annotationNumericValue  5e+00 ;
+                             ao:annotationType          art:CameraAngle ;
+                             ao:annotationValue         arv:CameraAngle_high_angle
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "high-angle" ;
+                             ao:annotationType  art:CameraAngle
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=23.150,65.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        23150 ;
+                                               advene:end          65083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/51fa81f1-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:40:58"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ffd700" ;
+        advene:type        "DominantMovementDirection" ;
+        advene:type_title  "ImCo | Dominant Movement Direction" ;
+        oa:hasBody         [ a                   ao:PredefinedValuesAnnotationType ;
+                             ao:annotationType   art:DominantMovementDirection ;
+                             ao:annotationValue  arv:DominantMovementDirection_undirected , arv:DominantMovementDirection_towards , arv:DominantMovementDirection_left , arv:DominantMovementDirection_away
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "left,towards,away,undirected" ;
+                             ao:annotationType  art:DominantMovementDirection
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=23.150,65.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        23150 ;
+                                               advene:end          65083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/54d9e799-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:04"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ffff00" ;
+        advene:type        "FieldSize" ;
+        advene:type_title  "ImCo | Field Size" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "neither" ;
+                             ao:annotationType  art:FieldSize
+                           ] ;
+        oa:hasBody         [ a                          ao:PredefinedValuesAnnotationType ;
+                             ao:annotationNumericValue  1e+00 ;
+                             ao:annotationType          art:FieldSize ;
+                             ao:annotationValue         arv:FieldSize_neither
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=65.083,70.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        65083 ;
+                                               advene:end          70083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/02d6d25c-4cf6-11ea-8124-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-11T18:43:28"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#00d5ff" ;
+        advene:type        "Shot" ;
+        advene:type_title  "Montg | Shot" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "1" ;
+                             ao:annotationType  art:Shot
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=0.000,23.150" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        0 ;
+                                               advene:end          23150
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/5314eaaa-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:00"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#ffed52" ;
+        advene:type        "ImageIntrinsicMovement" ;
+        advene:type_title  "ImCo | Image Intrinsic Movement" ;
+        oa:hasBody         [ a                           ao:ContrastingValuesAnnotationType ;
+                             ao:annotationType           art:ImageIntrinsicMovement ;
+                             ao:annotationValueSequence  ( arv:ImageIntrinsicMovement_0 arv:ImageIntrinsicMovement_1 )
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "0,[VS],1" ;
+                             ao:annotationType  art:ImageIntrinsicMovement
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=65.083,70.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        65083 ;
+                                               advene:end          70083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/916110ba-4ce6-11ea-8124-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-11T16:52:55"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#dcdcdc" ;
+        advene:type        "Scene" ;
+        advene:type_title  "Seg | Scene" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "Scene 1: Introduction Manhattan" ;
+                             ao:annotationType  art:Scene
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=0.000,70.083" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        0 ;
+                                               advene:end          70083
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/5c6ec736-4e4d-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T11:41:15"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#e09500" ;
+        advene:type        "ImageContent" ;
+        advene:type_title  "Motf | Image Content" ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "graphics,writing" ;
+                             ao:annotationType  art:ImageContent
+                           ] ;
+        oa:hasBody         [ a                   ao:PredefinedValuesAnnotationType ;
+                             ao:annotationType   art:ImageContent ;
+                             ao:annotationValue  arv:ImageContent_writing , arv:ImageContent_graphics
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=0.000,23.150" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        0 ;
+                                               advene:end          23150
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
+<http://ada.filmontology.org/resource/media/d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9/54f8571e-4e62-11ea-88ad-a08cfdc6ff91>
+        a                  oa:Annotation ;
+        ao:sceneId         "916110ba-4ce6-11ea-8124-a08cfdc6ff91" ;
+        dcterms:created    "2020-02-13T14:11:22"^^xsd:dateTime ;
+        dcterms:creator    advu:ada ;
+        advene:color       "#43cd80" ;
+        advene:type        "SoundGestureDynamics" ;
+        advene:type_title  "As | Sound Gesture Dynamics" ;
+        oa:hasBody         [ a                   ao:PredefinedValuesAnnotationType ;
+                             ao:annotationType   art:SoundGestureDynamics ;
+                             ao:annotationValue  arv:SoundGestureDynamics_subside , arv:SoundGestureDynamics_explosive
+                           ] ;
+        oa:hasBody         [ a                  oa:TextualBody ;
+                             rdf:value          "explosive,subside" ;
+                             ao:annotationType  art:SoundGestureDynamics
+                           ] ;
+        oa:hasTarget       [ oa:hasSelector  [ a                   oa:FragmentSelector ;
+                                               rdf:value           "t=62.744,66.174" ;
+                                               dcterms:conformsTo  <http://www.w3.org/TR/media-frags/> ;
+                                               advene:begin        62744 ;
+                                               advene:end          66174
+                                             ] ;
+                             oa:hasSource    arm:d6c2efb49d4430489e5c2029f6afa38032017395fe7498808ab08a4ed02524c9
+                           ] .
+
