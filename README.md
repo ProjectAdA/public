@@ -2,7 +2,7 @@
 
 This repository holds public data provided by the [AdA project](http://www.ada.cinepoetics.fu-berlin.de/en/index.html) (Affektrhetoriken des Audiovisuellen - BMBF eHumanities Research Group Audio-Visual Rhetorics of Affect). The data is made accessible under the terms of the [Creative Commons Attribution-ShareAlike 3.0 License](http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License).
 
-Further explanations of the data can be found on our [AdA project website](https://projectada.github.io/).
+''Further explanations of the data can be found on our [AdA project website](https://projectada.github.io/).''
 
 We currently offer here:
 
