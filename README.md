@@ -14,7 +14,7 @@ We currently offer here:
 ## Advene Annotation Template
 * The latest public release of the [template](https://github.com/ProjectAdA/public/tree/master/advene_template) for the Advene annotation software.
 * The template provides the developed semantic vocabulary in the Advene software with ready-to-use annotation tracks and predefined values.
-* In order to use the template you have to install and use [Advene from sources](https://github.com/oaubert/advene).
+* In order to use the template you have to install and use [Advene](https://www.advene.org/).
 
 ## Annotation Data
 * The latest public releases of our [annotation datasets](https://github.com/ProjectAdA/public/tree/master/annotations) based on the AdA vocabulary.
