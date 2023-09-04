@@ -10,7 +10,7 @@ At the end of the project, the data sets comprised more than half a million vide
 
 ## Manual annotations as Advene azp packages
 
-In addition all manual annotations are available in the standard format of the Open-Source Annotation Software Advene which was used to create the annotations. This folder contains the azp packages for each of the 49 manually annotated videos.
+In addition all manual annotations are available in the standard format of the Open-Source Annotation Software Advene (http://advene.org/) which was used to create the annotations. This folder contains the azp packages for each of the 49 manually annotated videos.
 
 ## Csv Samples Field-Size
 
