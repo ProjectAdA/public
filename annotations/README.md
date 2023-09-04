@@ -12,6 +12,6 @@ At the end of the project, the data sets comprised more than half a million vide
 
 In addition all manual annotations are available in the standard format of the Open-Source Annotation Software Advene (http://advene.org/) which was used to create the annotations. This folder contains the azp packages for each of the 49 manually annotated videos.
 
-## Csv Samples Field-Size
+## Export Samples
 
-This folder furthermore contains all manual annotations of the type "field size" throughout the corpus. These files were generated with the annotation explorer to demonstrate its export capabilities.
+This folder contains samples for two different export capabilities of the annotation explorer: 1) all manual annotations of the type "field size" throughout the corpus as csv files. 2) static html exports of different queries conducted in the annotation explorer.
