@@ -11,7 +11,7 @@ The film-analytical terms and concepts are defined on the basis of the Web Ontol
 Fig 1: The structure of levels, types, and values visualized using LodLive.
 
 Annotation types are organized in different analysis sets, depending on how detailed a film is to be analyzed:
-* AdaCorpusAnalysis: A set of annotation types that is always annotated during an analysis.
+* AdaCorpusAnalysis: A set of basic annotation types that is always annotated during an analysis.
 * AdaDetailedAnalysis: An extended set of annotation types used for detailed analysis.
 * AdaFilmontologyComplete: All available annotation types of the ontology.
 
