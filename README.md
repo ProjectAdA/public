@@ -22,7 +22,7 @@ We currently offer here:
 * The turtle exports contain more than 92,000 fine-grained film-analytical annotations.
 * We provide the Advene packages for the 49 manually annotated videos.
 * The annotation data can also be queried at our public [SPARQL Endpoint](http://ada.filmontology.org/sparql).
-* The dataset contains furthermore sample files for two different export capabilities of the [AdA Annotation Explorer] (https://project1.ada.cinepoetics.org/explorer/): 1) all manual annotations of the type "field size" throughout the corpus as csv files. 2) static html exports of different queries conducted in the AdA Annotation Explorer
+* The dataset contains furthermore sample files for two different export capabilities of the [AdA Annotation Explorer](https://project1.ada.cinepoetics.org/explorer/): 1) all manual annotations of the type "field size" throughout the corpus as csv files. 2) static html exports of different queries conducted in the AdA Annotation Explorer
 
 * ## Manuals
 * The data set includes different manuals and documentations in German and English: an overview of the vocabulary of the AdA Filmontology, an manual how to annotate with Advene and the AdA Filmontology and notes on the project's collobarative annotation practices with the AdA Filmonotology.
