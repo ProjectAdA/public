@@ -1,0 +1,133 @@
+cff-version: 1.2.0
+title: AdA Filmontology Annotation Data
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Jan-Hendrik
+    family-names: Bakels
+    affiliation: Freie Universität Berlin
+    email: Jan.Bakels@fu-berlin.de
+  - given-names: Matthias
+    family-names: Grotkopp
+    affiliation: Freie Universität Berlin
+    email: m.grotkopp@fu-berlin.de
+    orcid: 'https://orcid.org/0000-0002-0954-3111'
+  - given-names: Thomas
+    family-names: Scherer
+    email: thomas.scherer@fu-berlin.de
+    affiliation: Freie Universität Berlin
+    orcid: 'https://orcid.org/0000-0002-6746-2803'
+  - given-names: Jasper
+    family-names: Stratil
+    email: jasper.stratil@fu-berlin.de
+    affiliation: Freie Universität Berlin
+    orcid: 'https://orcid.org/0000-0001-9091-8410'
+  - given-names: Henning
+    family-names: Agt-Rickauer
+    affiliation: 'Hasso Plattner Institute, Potsdam'
+  - given-names: Anton
+    family-names: Buzal
+    affiliation: Freie Universität Berlin
+  - given-names: Yvonne
+    family-names: Pfeilschifter
+    affiliation: Freie Universität Berlin
+  - given-names: João
+    family-names: Pedro Prado
+    affiliation: Freie Universität Berlin
+  - given-names: Rebecca
+    family-names: Zorko
+    affiliation: Freie Universität Berlin
+repository-code: 'https://github.com/ProjectAdA/ada-ae'
+url: 'https://www.ada.cinepoetics.fu-berlin.de/'
+repository: 'https://github.com/oaubert/advene'
+abstract: >
+  # AdA Project Public Data Release
+
+    This repository holds public data provided by the AdA
+    project (Affektrhetoriken des Audiovisuellen - BMBF eHumanities
+    Research Group Audio-Visual Rhetorics of Affect). See: http://www.ada.cinepoetics.fu-berlin.de/en/index.html 
+  The data is made accessible under the terms of the
+  Creative
+    Commons Attribution-ShareAlike 3.0 License.
+
+    **The data can be accessed also at the project’s public GitHub repository: https://github.com/ProjectAdA/public 
+  Further explanations of the data can be found on our
+    AdA project website: https://projectada.github.io/. 
+  See also the peer-reviewed data paper for this dataset
+  that is in review to be published in NECSUS_European
+  Journal of Media Studies, and will be available from
+  https://necsus-ejms.org/ and https://mediarep.org
+
+
+  The data set currently includes:
+
+    ## AdA Filmontology
+
+    * The latest public release of the AdA
+    Filmontology: https://github.com/ProjectAdA/public/tree/master/ontology
+
+    * A vocabulary of film-analytical terms and concepts for fine-grained semantic video annotation.
+
+    * The vocabulary is also available online in our Triple Store: http://ada.filmontology.org/resource/2020/03/17/eMAEXannotationMethod
+
+
+    ## Advene Annotation Template
+
+    * The latest public release of the template for the Advene annotation software: https://github.com/ProjectAdA/public/tree/master/advene_template
+
+    * The template provides the developed semantic vocabulary
+    in the Advene software with ready-to-use annotation tracks
+    and predefined values.
+
+    * In order to use the template you have to install and use
+    Advene: https://www.advene.org/
+
+
+    ## Annotation Data
+
+    * The latest public releases of our annotation
+    datasets based on the AdA vocabulary: https://github.com/ProjectAdA/public/tree/master/annotations
+
+    * The dataset of news reports, documentaries and feature
+    films on the topic of "financial crisis" contains more than 92.000 manual & semi-automatic annotations authored in the open-source-software Advene (Aubert/Prié 2005) by expert annotators as well as more than 400.000 automatically generated annotations for wider corpus exploration. The annotations are published as Linked Open Data under the CC BY-SA 3.0 licence and available as rdf triples in turtle exports (ttl files) and in Advene's non-proprietary azp-file format, which allows instant access through the graphical interface of the software.
+    * The annotation data can also be queried at our public
+    SPARQL Endpoint: http://ada.filmontology.org/sparql
+    *  The dataset contains furthermore sample files for two different export capabilities of the annotation explorer: 1) all manual annotations of the type "field size" throughout the corpus as csv files. 2) static html exports of different queries conducted in the AdA Annotation Explorer.
+
+  ## Manuals
+
+  * the data set includes different manuals and
+  documentations in German and English.
+
+  * “AdA Filmontology – Levels, Types, Values”: an overview
+  over all analytical concepts and their definitions.
+
+  * “Manual: Annotating with Advene and the AdA
+  Filmontology”. A manual on the usage of Advene and the AdA
+  Annotation Explorer that provides the basics for
+  annotating audiovisual aesthetics and visualizing them.
+
+  * “Notes on collaborative annotation with the AdA
+  Filmontology”
+keywords:
+  - Film
+  - Film Studies
+  - Film Aesthetics
+  - Film Analysis
+  - Linked-Open-Data-Ontology
+  - Corpus Analysis
+  - Global Financial Crisis
+  - TV News
+  - Documentary
+  - Feature Film
+  - Video Annotation
+  - Journalism
+  - Audiovisual Media
+  - Digital Humanities
+  - Cinema
+  - Dataset
+license: CC-BY-SA-3.0
+version: '1.1'
+date-released: '2023-09-08'
