@@ -9,7 +9,7 @@ We currently offer here:
 ## AdA Filmontology
 * The latest public release of the [AdA Filmontology](https://github.com/ProjectAdA/public/tree/master/ontology).
 * A vocabulary of film-analytical terms and concepts for fine-grained semantic video annotation.
-* The vocabulary is also available online in our [Triple Store](http://ada.filmontology.org/resource/2020/03/17/eMAEXannotationMethod).
+* The vocabulary is also available online in our [Triple Store](https://ada.cinepoetics.org/resource/2021/05/19/eMAEXannotationMethod.html).
 
 ## Advene Annotation Template
 * The latest public release of the [template](https://github.com/ProjectAdA/public/tree/master/advene_template) for the Advene annotation software.
